@@ -14,6 +14,7 @@ function nuevoJuego(){
     intentosFallidos = 0;
     menu.classList.add("invisible");
     menuInferior.classList.add("invisible");
+    // @ts-ignore
     inputPalabra.value = "";
     limpiarPantalla();
     dibujarAhorcado(-50,0,0);

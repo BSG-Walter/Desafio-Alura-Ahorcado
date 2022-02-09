@@ -27,6 +27,7 @@ botonPalabra.addEventListener("click", function(){
     if (!palabras.includes(palabra)){
         if (palabra){
             palabras.push(palabra)
+            // @ts-ignore
             inputPalabra.value = "";
         }else{
             alert("LA PALABRA SOLO DEBE CONTENER LETRAS, NADA DE NÚMEROS O SÍMBOLOS")
