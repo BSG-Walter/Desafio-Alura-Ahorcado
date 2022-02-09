@@ -99,3 +99,10 @@ function mensajeDerrota(x, y){
     pincel.fillStyle = "red";
     pincel.fillText("FIN DEL JUEGO.", x, y);
 }
+
+function mostrarPalabra(x, y){
+    pincel.font = "20px Arial";
+    pincel.textAlign = "left";
+    pincel.fillStyle = "black";
+    pincel.fillText("LA PALABRA ERA: " + palabraSeleccionada, x, y);
+}

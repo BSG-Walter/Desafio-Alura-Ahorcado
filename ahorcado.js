@@ -82,6 +82,7 @@ function finDelJuego(){
     menuInferior.classList.remove("invisible");
     if (intentosFallidos >= maxIntentos){
         mensajeDerrota(600, 400)
+        mostrarPalabra(600, 430);
     }else{
         mensajeVictoria(600, 400);
     }
