@@ -73,6 +73,7 @@
   outline: none;
 }
 
-#mensajes-errores{
-	color:red
+#errores{
+	color:red;
+  list-style-type: none;
 }
