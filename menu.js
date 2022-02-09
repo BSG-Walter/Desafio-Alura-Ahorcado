@@ -26,9 +26,13 @@ botonPalabra.addEventListener("click", function(){
     let palabra = validarTexto(inputPalabra.value);
     if (!palabras.includes(palabra)){
         if (palabra){
-            palabras.push(palabra)
-            // @ts-ignore
-            inputPalabra.value = "";
+            if (palabra.length > 12){
+                alert("LA PALABRA NO PUEDE TENER MÁS DE 12 CARACTERES")
+            }else{
+                palabras.push(palabra)
+                // @ts-ignore
+                inputPalabra.value = "";
+            }
         }else{
             alert("LA PALABRA SOLO DEBE CONTENER LETRAS, NADA DE NÚMEROS O SÍMBOLOS")
         }
