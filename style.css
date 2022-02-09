@@ -68,3 +68,11 @@
 .invisible{
 	display:none;
 }
+
+.canvas{
+  outline: none;
+}
+
+#mensajes-errores{
+	color:red
+}
