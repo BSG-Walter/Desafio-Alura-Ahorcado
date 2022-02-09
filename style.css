@@ -5,7 +5,6 @@
   text-shadow: 1.25px 1.25px 1.25px #474747;
   color: #000000;
   text-align: center;
-  border: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -13,30 +12,59 @@
 .boton {
   color: rgb(0, 0, 0);
   font-weight: bold;
+  font-size: 15px;
   background-color: rgb(228, 228, 228);
   border-radius: 0.75em;
   border-style: hidden;
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.boton:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(200, 226, 238);
+  border-radius: 0.75em;
+  border-style: hidden;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition:0.1s;
+}
+
+.boton:active {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 14.5px;
+  background-color: rgb(169, 210, 228);
+  border-radius: 0.75em;
+  border-style: hidden;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition:0s;
 }
 
 .caja-texto {
   border-radius: 0.25em;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(209, 209, 209);
   display: block;
   padding: 0.5em;
-  width: 30%;
+  width: 40%;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .div{
   text-align: center;
   border: auto;
 }
-.canvas {
-  width: 1200px;
-  height: 800px;
+
+.invisible{
+	display:none;
 }
