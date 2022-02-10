@@ -48,7 +48,3 @@ function mostrarError(error){
     li.textContent = error;
     ul.appendChild(li);
 }
-
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
