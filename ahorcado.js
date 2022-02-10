@@ -8,7 +8,7 @@ var jugando = false;
 
 function nuevoJuego(){
     jugando = true;
-    let random = getRandomInt(0, palabras.length - 1);
+    let random = getRandomInt(0, palabras.length);
     palabraSeleccionada = palabras[random];
     letrasIntentadas = [];
     intentosFallidos = 0;
@@ -87,4 +87,8 @@ function finDelJuego(){
     }else{
         mensajeVictoria(600, 400);
     }
+}
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
 }
